@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -39,8 +40,9 @@ public class LoadStage : MonoBehaviour {
     */
     void LoadMaze()  /* □ : 벽, ◇ : 플레이어 길, ↑ ↓ → ←, ↖ ↙ ↘ ↗, ┌ └ ┘ ┐, ① ~ ⑮ : 웨이포인트, △ : 타워 설치 가능,*/
     {
-        TextAsset text = Resources.Load("Map/" + SceneManager.GetActiveScene().name + '/' + SceneManager.GetActiveScene().name) as TextAsset;
-        
+        string path = "Map/" + SceneManager.GetActiveScene().name + "/" + SceneManager.GetActiveScene().name;
+        TextAsset text = Resources.Load<TextAsset>(path);
+
         GameObject wall = GameObject.Find("Wall").gameObject;
         GameObject playerField = GameObject.Find("PlayerField").gameObject;
         GameObject towerField = GameObject.Find("TowerField").gameObject;
@@ -121,32 +123,38 @@ public class LoadStage : MonoBehaviour {
             {
                 for (int y = 0; y < height; y++)
                 {
-                    switch (lines[i * (height + 1) + 4 + y].ToCharArray()[x])
+                    try
                     {
-                        case '1':
-                        case '2':
-                        case '3':
-                        case '4':
-                        case '5':
-                        case '6':   
-                        case '7':
-                        case '8':
-                        case '9':
-                            GameObject h = Spawn(null, new Vector2((width / 2) - width + x, (height / 2) - height + y));
-                            h.name = "WayPoint" + lines[i * (height + 1) + 4].ToCharArray()[x];
-                            points[(int)(lines[i * (height + 1) + 4 + y].ToCharArray()[x] - '0')] = h;
-                            break;
+                        switch (lines[i * (height + 1) + 4 + y].ToCharArray()[x])
+                        {
+                            case '1':
+                            case '2':
+                            case '3':
+                            case '4':
+                            case '5':
+                            case '6':
+                            case '7':
+                            case '8':
+                            case '9':
+                                GameObject h = Spawn(null, new Vector2((width / 2) - width + x, (height / 2) - height + y));
+                                h.name = "WayPoint" + lines[i * (height + 1) + 4].ToCharArray()[x];
+                                points[(int)(lines[i * (height + 1) + 4 + y].ToCharArray()[x] - '0')] = h;
+                                break;
 
-                        default:
-                            if (lines[i * (height + 1) + 4 + y].ToCharArray()[x] >= 'a' && lines[i * (height + 1) + 4 + y].ToCharArray()[x] <= 'z')
-                            {
-                                GameObject p = Spawn(null, new Vector2((width / 2) - width + x, (height / 2) - height + y));
-                                p.name = "WayPoint" + (lines[i * (height + 1) + 4 + y].ToCharArray()[x]).ToString();
-                                points[(int)(lines[i * (height + 1) + 4 + y].ToCharArray()[x] - 'a') + 10] = p;
-                            }
-                            break;
+                            default:
+                                if (lines[i * (height + 1) + 4 + y].ToCharArray()[x] >= 'a' && lines[i * (height + 1) + 4 + y].ToCharArray()[x] <= 'z')
+                                {
+                                    GameObject p = Spawn(null, new Vector2((width / 2) - width + x, (height / 2) - height + y));
+                                    p.name = "WayPoint" + (lines[i * (height + 1) + 4 + y].ToCharArray()[x]).ToString();
+                                    points[(int)(lines[i * (height + 1) + 4 + y].ToCharArray()[x] - 'a') + 10] = p;
+                                }
+                                break;
+                        }
                     }
-
+                    catch(Exception e)
+                    {
+                        Debug.Log(e.Message + " " + x);
+                    }
                 }
             }
             foreach (GameObject t in points)
