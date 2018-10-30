@@ -10,7 +10,7 @@ public class MainGame : MonoBehaviour {
     private bool isGameEnd;
     private List<GameObject> units;
     private List<GameObject> towers;
-    [SerializeField, Range(2000, 50000)]
+    [SerializeField, Range(2000, 1000000)]
     private int money;
     private int totalMoney;
     private UpgradeList upgradeList;

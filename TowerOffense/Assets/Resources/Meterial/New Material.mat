@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: New Material
   m_Shader: {fileID: 4800000, guid: 220c29567d12cde4d96fe4b0415dd42c, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
@@ -39,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b3b633c3b51101f4091cb34ea45d45fe, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,8 +62,8 @@ Material:
     - _DetailNormalMapScale: 1
     - _Distort: 0
     - _DstBlend: 0
-    - _Fresnel: 50
-    - _FresnelWidth: 1.5
+    - _Fresnel: 19
+    - _FresnelWidth: 0.494
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
