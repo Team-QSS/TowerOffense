@@ -36,13 +36,13 @@ public class TowerAI : MonoBehaviour
         }
         if (!DualShoot)
         {
-            Bullet.GetComponent<Bullet>().callme = this;
+            Bullet.GetComponent<BulletModel>().callme = this;
             Instantiate(Bullet, new Vector3(partToRotate.transform.position.x, partToRotate.transform.position.y, -0.1f),
                 new Quaternion(0, 0, rotation.z, rotation.w));
         }
         else
         {
-            Bullet.GetComponent<Bullet>().callme = this;
+            Bullet.GetComponent<BulletModel>().callme = this;
             if (spawnpoint)
             {
                 Instantiate(Bullet, new Vector3(partToRotate.transform.position.x - Middle_to_Bullet, partToRotate.transform.position.y, -0.1f),

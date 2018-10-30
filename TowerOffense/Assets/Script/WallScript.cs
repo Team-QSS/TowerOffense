@@ -62,7 +62,11 @@ public class WallScript : MonoBehaviour {
     {
         foreach(GameObject g in Bump_into)
         {
-            if(g != null)g.GetComponent<PlayerScript>().movement.MoveSpeed = g.GetComponent<PlayerScript>().MoveSpeed;
+            if (g != null)
+            {
+                Movement move = g.GetComponent<Movement>();
+                move.MoveSpeed = move.OriginalMoveSpeed;
+            }
         }
     }
 
