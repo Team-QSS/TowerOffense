@@ -62,6 +62,7 @@ public class ButtonEvent : MonoBehaviour {
 
     public void Home()
     {
+        KeepGoing();
         SceneManager.LoadScene("StageSelect");
     }
 

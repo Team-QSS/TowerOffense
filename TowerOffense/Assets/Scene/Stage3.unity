@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseList: {fileID: 503338924}
-  money: 50000
+  money: 1000000
 --- !u!114 &1392346915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -844,6 +844,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1392346912}
+    - target: {fileID: 114299038146401516, guid: d384a325c897f3047b40ac45c8c90707,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d384a325c897f3047b40ac45c8c90707, type: 3}
 --- !u!1 &2137697615
