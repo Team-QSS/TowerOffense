@@ -7,6 +7,7 @@ public class PlayerScript : MonoBehaviour {
     public float HP = 30f;
     public float Damage = 2f;
     public GameObject HPvar;
+    public float MoveSpeed = 0;
     public Movement movement;
     WallScript wallScript = null;
     private UpgradeList upgradeList;
@@ -17,7 +18,8 @@ public class PlayerScript : MonoBehaviour {
         HPvar = Instantiate(HPvar);
         upgradeList = new UpgradeList(new FileLoader().Load());
         movement = GetComponent<Movement>();
-        movement.MoveSpeed = movement.MoveSpeed + 0.2f * upgradeList.Speed;
+        MoveSpeed = movement.MoveSpeed + 0.2f * upgradeList.Speed;
+        movement.MoveSpeed = MoveSpeed;
         HP += 5 * upgradeList.HP;
         Damage += 0.5f * upgradeList.Damage;
     }
@@ -27,27 +29,21 @@ public class PlayerScript : MonoBehaviour {
 
         transform.GetChild(0).gameObject.SetActive(Camera.main.GetComponent<ButtonEvent>().UseSkill_Barrier);
         
-	}
-
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if(collision.gameObject.tag == "Bullet")
-    //    {
-    //        Bullet bullet = collision.gameObject.GetComponent<Bullet>();
-    //        Destroy(collision.gameObject);
-    //        HP -= bullet.callme.Damage;
-    //    }
-    //}
-
-    public void DealDmg(float damage)
-    {
-        HP -= damage;
-
         if (HP <= 0)
         {
             Destroy(HPvar);
             Camera.main.GetComponent<MainGame>().DeleteUnit(transform.parent.gameObject);
             Camera.main.GetComponent<SpawnWall>().KillCount++;
+        }
+	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Bullet")
+        {
+            Bullet bullet = collision.gameObject.GetComponent<Bullet>();
+            Destroy(collision.gameObject);
+            HP -= bullet.callme.Damage;
         }
     }
 

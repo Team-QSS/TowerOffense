@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 85322e65154501241b172f94eb2d5c5d
+timeCreated: 1526024785
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: towerDefense_tilesheet_0
@@ -302,7 +304,7 @@ TextureImporter:
     21300594: towerDefense_tilesheet_297
     21300596: towerDefense_tilesheet_298
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -320,8 +322,6 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -332,7 +332,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -100
+    mipBias: -1
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -344,21 +344,18 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 64
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
-  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
-    buildTarget: DefaultTexturePlatform
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -368,8 +365,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
+  - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -396,12 +392,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 02b90667e6e383c4686489ddab2a2bd9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_1
       rect:
@@ -416,12 +406,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1ecb18918f2814848afa4adc79cec98a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_2
       rect:
@@ -436,12 +420,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ed20308b148a2e446b56360eae7d0527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_3
       rect:
@@ -456,12 +434,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 197b2e1f684cf06408d25d97bda3155a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_4
       rect:
@@ -476,12 +448,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f91a894eff8bc7b45a4572aed9e21852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_5
       rect:
@@ -496,12 +462,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bbe8e87a6dcc72c41b0aec43ca27adad
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_6
       rect:
@@ -516,12 +476,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1e5ca7b67fc71304aa957964bd8d1348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_7
       rect:
@@ -536,12 +490,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 86c08891a8422cb4a835d230079babf4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_8
       rect:
@@ -556,12 +504,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4a2cf0786d52cce47a9dd1b122343a55
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_9
       rect:
@@ -576,12 +518,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5cba6f7eef337be4f99df547ca76eca3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_10
       rect:
@@ -596,12 +532,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: c552dfe186bae6040bf4f8dbed053cc6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_11
       rect:
@@ -616,12 +546,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: fb8c6d91bba865a4a8c5ef665b2a3232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_12
       rect:
@@ -636,12 +560,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 530d8fc19b6790f40a6d22036135a2c9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_13
       rect:
@@ -656,12 +574,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5cab52bbb1d6ec64ba12fdee7990592b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_14
       rect:
@@ -676,12 +588,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 558c8a3719da6114a84bef906ff58a9c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_15
       rect:
@@ -696,12 +602,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 82d491dd86cdad54b8923ccfc6d365ac
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_16
       rect:
@@ -716,12 +616,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 38ba28bc071b91e4cb3db5e5cc25ace0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_17
       rect:
@@ -736,12 +630,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: da33a15b3d863f34e8d73b5755c6e283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_18
       rect:
@@ -756,12 +644,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0789c303d5e3c3b4e9aaa744f5cfd76a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_19
       rect:
@@ -776,12 +658,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5027d731a252f154696d387fcab954c0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_20
       rect:
@@ -796,12 +672,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 90507c425764a7748bc3985498967df5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_21
       rect:
@@ -816,12 +686,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4542bbae95a2efe4cae247f1881d58f5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_22
       rect:
@@ -836,12 +700,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 436f92186b062ef4c98b84d71168da72
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_23
       rect:
@@ -856,12 +714,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7ca0db164c8a3244e85ba4719a2a46d7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_24
       rect:
@@ -876,12 +728,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a36e2c71bea868248991465230e3b7e3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_25
       rect:
@@ -896,12 +742,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 86ccc1a67ead0144bb8da95065054f01
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_26
       rect:
@@ -916,12 +756,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3e05310f02bc9304fbd65b141de400c3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_27
       rect:
@@ -936,12 +770,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1b000a030c6958c43b2f43174bc138aa
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_28
       rect:
@@ -956,12 +784,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 9398036756d6c044a984e59513b13f6f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_29
       rect:
@@ -976,12 +798,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f410ec4dd79646c4fbc712179b1efccd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_30
       rect:
@@ -996,12 +812,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 296212cb91c0c2b4fbadb54aa27897a0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_31
       rect:
@@ -1016,12 +826,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 9bb89b13a0312924a9000f9c293e8699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_32
       rect:
@@ -1036,12 +840,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7948c1b7215ed044fb87eb73f6b524a0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_33
       rect:
@@ -1056,12 +854,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3b6ebeff976b36047a7a7d78ed940b86
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_34
       rect:
@@ -1076,12 +868,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 73c3d05b53ea3d747a82a7d18552ae93
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_35
       rect:
@@ -1096,12 +882,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 089a7da43707bbf47a3614a927929bf6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_36
       rect:
@@ -1116,12 +896,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a9de7395a33d1f94286c28915c6323bf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_37
       rect:
@@ -1136,12 +910,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d3c7714d6db5b3f49a98034f316db59c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_38
       rect:
@@ -1156,12 +924,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 25b6d8ef65451544bbdf500332fc4fe0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_39
       rect:
@@ -1176,12 +938,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0666df6b308d731428a6197beb3559de
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_40
       rect:
@@ -1196,12 +952,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 46575bd60971c1f499fb7d14b4e9fb05
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_41
       rect:
@@ -1216,12 +966,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: aacbb2bdb4a49a84e8d8a4aa46f8a037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_42
       rect:
@@ -1236,12 +980,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 813c276c2cad41c4794d86d173288ec9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_43
       rect:
@@ -1256,12 +994,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4f7849c88ee570241a169cab08f3c995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_44
       rect:
@@ -1276,12 +1008,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 09ce5b33a877be341b78a498bce33f12
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_45
       rect:
@@ -1296,12 +1022,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 9dabad67658e4e34286b1a1314b60828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_46
       rect:
@@ -1316,12 +1036,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f22e7475f09efe14d8846f83561d0ef7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_47
       rect:
@@ -1336,12 +1050,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a2eb8773ece5aa74094d206c82c234ce
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_48
       rect:
@@ -1356,12 +1064,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bb3d2204c662e5044b8fe7b895bc9647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_49
       rect:
@@ -1376,12 +1078,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 40e6e4bea6964704db2427004f6e57e2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_50
       rect:
@@ -1396,12 +1092,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 63cfde9e80fa7cf4eb30a8fd8e4d9288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_51
       rect:
@@ -1416,12 +1106,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f75b8b75155356049b9d130e381c241e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_52
       rect:
@@ -1436,12 +1120,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 41e9c6c7639279f4199c55bb0c278866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_53
       rect:
@@ -1456,12 +1134,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3d5361348776fcd46a164246fe82eb68
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_54
       rect:
@@ -1476,12 +1148,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b19e721b0010f5a4199505facbfebdb5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_55
       rect:
@@ -1496,12 +1162,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 33dc49bf80bd202478c7900097daee00
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_56
       rect:
@@ -1516,12 +1176,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 11abe4646d8acf54a9508081f84dfabd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_57
       rect:
@@ -1536,12 +1190,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: fd85020c5d600ce499e2198ee06de385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_58
       rect:
@@ -1556,12 +1204,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: c9f23bf3f05fcd04abdb179c17e67455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_59
       rect:
@@ -1576,12 +1218,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bfc110454a4e6b94b8105e629684c5d3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_60
       rect:
@@ -1596,12 +1232,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 54b7ca3392480bd47b004d770514b3f3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_61
       rect:
@@ -1616,12 +1246,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5e4fedf860428d048af1f9a788b4d07a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_62
       rect:
@@ -1636,12 +1260,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 80a5925cede69424eb806ebab1dc3a3a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_63
       rect:
@@ -1656,12 +1274,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 59e5970597ad8524aa78fa39cdf1b420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_64
       rect:
@@ -1676,12 +1288,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 2ad6a48592ca28b4382870e15a6e681b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_65
       rect:
@@ -1696,12 +1302,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 926b3a377012a3f41b0d195be5692c12
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_66
       rect:
@@ -1716,12 +1316,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a76b3c49a1e9cc040b1afb0fb8c3af18
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_67
       rect:
@@ -1736,12 +1330,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 04495f7ec4623514cae0e546104c9d9e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_68
       rect:
@@ -1756,12 +1344,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5cbbd2b1888fccf40a6d4a20347d97db
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_69
       rect:
@@ -1776,12 +1358,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: aeef1adbecc31e943a7788f3ba7e2fce
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_70
       rect:
@@ -1796,12 +1372,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5780b90751fd32a45baa9e49fb17f665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_71
       rect:
@@ -1816,12 +1386,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 971ee5677c69e934392db35a56ce3c29
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_72
       rect:
@@ -1836,12 +1400,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a220c43484ccda349b8a166f089ae51b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_73
       rect:
@@ -1856,12 +1414,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b7089298d848aed4e86b8e6654d135af
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_74
       rect:
@@ -1876,12 +1428,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7fe8c5e1d2f634948a3ec878d0800589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_75
       rect:
@@ -1896,12 +1442,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 65058c6e470223f4ba0cd52fb3cca9fd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_76
       rect:
@@ -1916,12 +1456,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 9bfd19a0829b65e41bf1bc73b1c85b31
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_77
       rect:
@@ -1936,12 +1470,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 68eba234d9772ad43b2172156bf22721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_78
       rect:
@@ -1956,12 +1484,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0b4828cc0d6c27240be3d1ee6b5cc499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_79
       rect:
@@ -1976,12 +1498,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: af3597a0cb38fb64ea5a6777fedf4c89
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_80
       rect:
@@ -1996,12 +1512,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: fc3ab980f36ad474babbe37dc182b178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_81
       rect:
@@ -2016,12 +1526,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0eaefd16b6a1d4b4896f1356673dae83
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_82
       rect:
@@ -2036,12 +1540,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ee7d6a77e3b132c4b8c8db8a99d384fd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_83
       rect:
@@ -2056,12 +1554,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 32b560e60b7e6854495e426e17c86e42
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_84
       rect:
@@ -2076,12 +1568,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 8d820e5e18c1a6547b71efdff3f6c957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_85
       rect:
@@ -2096,12 +1582,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a1b430d0ed84f644ab147e07ffe433c0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_86
       rect:
@@ -2116,12 +1596,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: c1da5120b00b71847b6a3d667d183a7b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_87
       rect:
@@ -2136,12 +1610,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: c4ad40986ae5f924cb41a70dfe779e0a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_88
       rect:
@@ -2156,12 +1624,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 55a9a4bb220849d4fa0d6c6cf82826a3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_89
       rect:
@@ -2176,12 +1638,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f0b2f5631d0ab40488212fe078dd379b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_90
       rect:
@@ -2196,12 +1652,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7faad20e93dbd554eb5e156a23c583fe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_91
       rect:
@@ -2216,12 +1666,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3ce5c1e7a53ee124984dc830f4a4555f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_92
       rect:
@@ -2236,12 +1680,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4f1760a11a6e5294795e1234b115a09b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_93
       rect:
@@ -2256,12 +1694,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: cb16bffda5d99eb4aab03e54c6709ba1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_94
       rect:
@@ -2276,12 +1708,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b847e2be6520e9748bcf30a7bd15aa1e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_95
       rect:
@@ -2296,12 +1722,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b05ecea6a5e3e9c48bdaeea80ae69520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_96
       rect:
@@ -2316,12 +1736,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4b72968936b4b05468b9e78f43adc4a0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_97
       rect:
@@ -2336,12 +1750,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 51ee8829f43e8564da65010f73d69e87
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_98
       rect:
@@ -2356,12 +1764,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b83e82e6ac860914abe777e1167899bc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_99
       rect:
@@ -2376,12 +1778,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ba22d017cfb4ad4449c88c136d7b1e25
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_100
       rect:
@@ -2396,12 +1792,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 2be3e53e7a4b9ba4db72967f39d607b9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_101
       rect:
@@ -2416,12 +1806,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: fd5dabcb0cea10b43a59bb80b93f68c2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_102
       rect:
@@ -2436,12 +1820,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a9b8b372fa385db43843359a4698506c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_103
       rect:
@@ -2456,12 +1834,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a9ae76c843abe834a9f48e16958dba0e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_104
       rect:
@@ -2476,12 +1848,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6ceca8ff82bfb6b44800e77efd57f180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_105
       rect:
@@ -2496,12 +1862,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 93bf3587762914448818ebc9538a7a67
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_106
       rect:
@@ -2516,12 +1876,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ac592caa2438763479a2319aadac4738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_107
       rect:
@@ -2536,12 +1890,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: eced04fc42a89884b9a0ab585348ee06
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_108
       rect:
@@ -2556,12 +1904,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 46f19992dba72f9498201beed31d4eb7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_109
       rect:
@@ -2576,12 +1918,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 33ba2ea6f551bec4695aaaa1577801f6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_110
       rect:
@@ -2596,12 +1932,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f22a29cd438a87349afa369d66ad97dd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_111
       rect:
@@ -2616,12 +1946,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 439cd10532f72df498e3a365ce0f7d7a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_112
       rect:
@@ -2636,12 +1960,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: af5916f13197d5a40ad32bd54f112f63
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_113
       rect:
@@ -2656,12 +1974,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 613a4228b7a0ce0489b37858c99a03cc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_114
       rect:
@@ -2676,12 +1988,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 313babd04027bfc40b365c27c0d1faf8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_115
       rect:
@@ -2696,12 +2002,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 99ec01f663f7f76479814ba106f9c5ae
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_116
       rect:
@@ -2716,12 +2016,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: e9b48e202b07ce44b9d65bb3c4632a77
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_117
       rect:
@@ -2736,12 +2030,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 013b9290e3eacec46ac13ac1bab5f7c5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_118
       rect:
@@ -2756,12 +2044,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 19f51923e61812d408be3821e9e01230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_119
       rect:
@@ -2776,12 +2058,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 49043d8c3cceeb945afa4fc6e7e2be19
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_120
       rect:
@@ -2796,12 +2072,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6196b7b49c2a7ab43916ea54c65e7e56
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_121
       rect:
@@ -2816,12 +2086,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: c8259ac06e50e1f46b4042b356955800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_122
       rect:
@@ -2836,12 +2100,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: df0f3ee2ad1dfd3408a8c0311b00155b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_123
       rect:
@@ -2856,12 +2114,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ec09c30e00d61cf449bbfd1dd8e07218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_124
       rect:
@@ -2876,12 +2128,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 91d9bee9688cd5b4e83a1470561a86fe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_125
       rect:
@@ -2896,12 +2142,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 086cb48928a832d4b878413b659c3d68
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_126
       rect:
@@ -2916,12 +2156,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 774b618c4a7831242884f0e9c9a6ad1d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_127
       rect:
@@ -2936,12 +2170,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1d26a532c579e17458ee46bef94c7a44
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_128
       rect:
@@ -2956,12 +2184,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 594cd529c0d0d744387e9714165a505f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_129
       rect:
@@ -2976,12 +2198,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bbfb286850c19c3429b32665896a2536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_130
       rect:
@@ -2996,12 +2212,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: abd28172fafd1ef41b2a97b0cd37abef
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_131
       rect:
@@ -3016,12 +2226,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: dfacf11ced29d1946afd46c2a27f83c3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_132
       rect:
@@ -3036,12 +2240,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 24b085c3dd8b8284791b72eb4015ead7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_133
       rect:
@@ -3056,12 +2254,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 9f94267966c12da4a8038d2e04932adc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_134
       rect:
@@ -3076,12 +2268,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 049bdd8fadf50354ea6d569530e63dbd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_135
       rect:
@@ -3096,12 +2282,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ddf5bae12e4007046b4e7ca5d4244d79
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_136
       rect:
@@ -3116,12 +2296,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 24ee32f87fd11a54b876a3ced207956d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_137
       rect:
@@ -3136,12 +2310,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a79554a519da8164cba6a1e748550fa3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_138
       rect:
@@ -3156,12 +2324,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ea48db532d28c8a4b87123c2040b08e5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_139
       rect:
@@ -3176,12 +2338,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 152e697a7dae1ab4f8f895ecb1b70cee
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_140
       rect:
@@ -3196,12 +2352,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: de400d9a5fe31ac4a9338cd14cd17b04
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_141
       rect:
@@ -3216,12 +2366,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7843cdd185153b748878226126746480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_142
       rect:
@@ -3236,12 +2380,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 9bf3198ffc5fa0e43a55c203b6e0339b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_143
       rect:
@@ -3256,12 +2394,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 962b81d2ff351d84ab0024933bbfaaaf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_144
       rect:
@@ -3276,12 +2408,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 95281c52bcf5cd8459a75c6618b75759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_145
       rect:
@@ -3296,12 +2422,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 17c8ca85974459b4a9d0a4543e9c711e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_146
       rect:
@@ -3316,12 +2436,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4a3661b327e366649b507a8e7ee617d9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_147
       rect:
@@ -3336,12 +2450,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 79f28aa97f80dbe4aa170d78101b3dae
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_148
       rect:
@@ -3356,12 +2464,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 8caabc51f7f49d84ea87a222c7487b3e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_149
       rect:
@@ -3376,12 +2478,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d22697935f100514b92dce8a7e0e6b3e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_150
       rect:
@@ -3396,12 +2492,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 9999d87da2ce7ef438d989f7d9eff153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_151
       rect:
@@ -3416,12 +2506,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5fc5d59675e816048a6f0f8cb52b3165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_152
       rect:
@@ -3436,12 +2520,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 65b6d6d5082b4b44b8f8135061871e33
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_153
       rect:
@@ -3456,12 +2534,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: be9444a3298abe44eaad1b4a5a35efb4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_154
       rect:
@@ -3476,12 +2548,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a8e76a60a64d4c2468ef5296efd07542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_155
       rect:
@@ -3496,12 +2562,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: c49fae417fc78c740bd1df3006691b2f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_156
       rect:
@@ -3516,12 +2576,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7d16ab19f11fba54b853a15c89240e1e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_157
       rect:
@@ -3536,12 +2590,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3bcddf7b5bcdac8498fe01628ddeba89
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_158
       rect:
@@ -3556,12 +2604,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bdcf71f3263e48543a38aee984f93ad0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_159
       rect:
@@ -3576,12 +2618,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6152a52ca35a9414b8e101995a0ac515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_160
       rect:
@@ -3596,12 +2632,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: e0c8f6eb63bcb574c8bf99f4005b7532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_161
       rect:
@@ -3616,12 +2646,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4cb9735caf13f4247accf3c597aa8876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_162
       rect:
@@ -3636,12 +2660,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: e50b81c09e9e56544a048134957a2f9b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_163
       rect:
@@ -3656,12 +2674,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 77f7e3a40782698459355164d0a7b61a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_164
       rect:
@@ -3676,12 +2688,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7c3fe7d4c00fdd04a96ba2314b93784f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_165
       rect:
@@ -3696,12 +2702,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 187b377db8346174799f782bcf2b55d8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_166
       rect:
@@ -3716,12 +2716,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: c54327f00a67d24439cf340a9ae72b64
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_167
       rect:
@@ -3736,12 +2730,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4733139d789b34f41a58fe03ec75c572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_168
       rect:
@@ -3756,12 +2744,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 455f3a83b09c74d4fa16c8c3afed6bb7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_169
       rect:
@@ -3776,12 +2758,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b0b72193947366943b76eebb646595c5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_170
       rect:
@@ -3796,12 +2772,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 96631c5eabfaecf4c850f30c77eb7f89
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_171
       rect:
@@ -3816,12 +2786,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 131db5992a4b04e4e90c7b4e4751eb15
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_172
       rect:
@@ -3836,12 +2800,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1ea110f217f3e1c499a976d79863d0c2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_173
       rect:
@@ -3856,12 +2814,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d63e6d605e5dfd542a185726289ec2ec
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_174
       rect:
@@ -3876,12 +2828,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bbe3b1c04a9f67d4d8002b1afcfaec82
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_175
       rect:
@@ -3896,12 +2842,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5c78e93898fd6074e84ac42b7bd5084a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_176
       rect:
@@ -3916,12 +2856,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: edd171c855858514cb2ba41e0572c5ca
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_177
       rect:
@@ -3936,12 +2870,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b04100b95e95d554fa93e103efa77f9e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_178
       rect:
@@ -3956,12 +2884,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d0df2304dbcc04d49a0bb6cd8dc6dee6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_179
       rect:
@@ -3976,12 +2898,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 23099952c88610842905eb47871661c2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_180
       rect:
@@ -3996,12 +2912,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 451a26ad063e71e4fb15cf9d95270028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_181
       rect:
@@ -4016,12 +2926,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0a9c5ffea8b27214495b47afb9114594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_182
       rect:
@@ -4036,12 +2940,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d07e3e53cb56629469726926aaf35d0c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_183
       rect:
@@ -4056,12 +2954,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 10a42c611f8e7c74c80ec3eb7dfa994c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_184
       rect:
@@ -4076,12 +2968,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 71b9906090180b7468daca4debcb2537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_185
       rect:
@@ -4096,12 +2982,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f2400b47ff59be944974f9b801de5731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_186
       rect:
@@ -4116,12 +2996,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 46570fe4a68286c48a6310309230770a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_187
       rect:
@@ -4136,12 +3010,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7a460da0a99f36e44b3e572243467c41
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_188
       rect:
@@ -4156,12 +3024,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bfffb401dd8791b47bb1ccef6faaf08f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_189
       rect:
@@ -4176,12 +3038,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1e1af8b1722fe1f4ebc309bcfa04bfcc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_190
       rect:
@@ -4196,12 +3052,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 533e9b69e5cdffc46a49c1886462e14a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_191
       rect:
@@ -4216,12 +3066,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3b38834d6860ba5408b2954279e80205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_192
       rect:
@@ -4236,12 +3080,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 71fb2a70ff07de941a1bc64b3e8e13a5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_193
       rect:
@@ -4256,12 +3094,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b22c28d9199da924eb9037fea83a79b2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_194
       rect:
@@ -4276,12 +3108,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 69c71af8277d8864dbdca34a54afc680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_195
       rect:
@@ -4296,12 +3122,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 19f9dba8a71c1c542ac5be1cca6472b5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_196
       rect:
@@ -4316,12 +3136,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 172dc70b668720b48a4e1cf04a3b3a66
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_197
       rect:
@@ -4336,12 +3150,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5f1d17e979c101344b59c98fb373a6c5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_198
       rect:
@@ -4356,12 +3164,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5cb1210672027d846b2c83618d7415c5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_199
       rect:
@@ -4376,12 +3178,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3cfa4f899bcfb3c44a0a24e4d807f229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_200
       rect:
@@ -4396,12 +3192,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3a9c9183b821f7e43870998705bf8a4e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_201
       rect:
@@ -4416,12 +3206,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: de28464513cc01a4b9f11ae8f52967fa
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_202
       rect:
@@ -4436,12 +3220,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0eb6675f2c691ee4d866b8cbae38e425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_203
       rect:
@@ -4456,12 +3234,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 80af9d58906e1284a9ce25140d95993e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_204
       rect:
@@ -4476,12 +3248,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bc905f03c7e74a64287edd10c9d0fc06
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_205
       rect:
@@ -4496,12 +3262,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4cd39b5c71df0aa45abb92f023e9aa71
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_206
       rect:
@@ -4516,12 +3276,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 40a4adb16a5ff3b4c8d7facd4180e2a9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_207
       rect:
@@ -4536,12 +3290,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a8f0ee9fd2afacf448c69b1f6ecf4d7d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_208
       rect:
@@ -4556,12 +3304,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bcdeda6bd73f7ef4da403c40599e5e9e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_209
       rect:
@@ -4576,12 +3318,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: cff7d88d998cd924db94ec853088bf7b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_210
       rect:
@@ -4596,12 +3332,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: e3d546cf83fe33f48a3db827bc48611a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_211
       rect:
@@ -4616,12 +3346,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a3e3f7990fba74442b85842779dd3a6c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_212
       rect:
@@ -4636,12 +3360,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 26ef6b0e7825ee642b9133ca1fc6091e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_213
       rect:
@@ -4656,12 +3374,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 605fae4b2fb790945b9368102adb022b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_214
       rect:
@@ -4676,12 +3388,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 60766a465b5afd348bafb6e7bde1daa0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_215
       rect:
@@ -4696,12 +3402,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3c7bec94060a90040880444fb17d6aae
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_216
       rect:
@@ -4716,12 +3416,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1c6dc10396e212142a989533ac6eefc5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_217
       rect:
@@ -4736,12 +3430,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3e68368d1383dae469818b40d6b35b39
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_218
       rect:
@@ -4756,12 +3444,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1d709094793b22f478882beef6960147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_219
       rect:
@@ -4776,12 +3458,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6b4b4ae8c54dbda438a40495872d09ec
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_220
       rect:
@@ -4796,12 +3472,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f89474648f8d5f249991fe3e45af68c2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_221
       rect:
@@ -4816,12 +3486,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1af1211c96384f849a411c41260e76cb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_222
       rect:
@@ -4836,12 +3500,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6213f539cf52b8b49b14070a71b472f0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_223
       rect:
@@ -4856,12 +3514,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ee030f8ac6ec1d24a9b3f61da0df1cb7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_224
       rect:
@@ -4876,12 +3528,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6458b34123512fc409da158a957fb41a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_225
       rect:
@@ -4896,12 +3542,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 642793c9c79b1364697c64634da78131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_226
       rect:
@@ -4916,12 +3556,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 169931814bd853942abf1ee7604cebca
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_227
       rect:
@@ -4936,12 +3570,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 2816a2d5fccf62c49bc80fd025a4cc7a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_228
       rect:
@@ -4956,12 +3584,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 8cee48792150d274890ebfc3bfb8f306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_229
       rect:
@@ -4976,12 +3598,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 60b5541784b604d4ea3eaf6961161522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_230
       rect:
@@ -4996,12 +3612,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0e5cd1be11efdcd4e99b1d0bd169b04a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_231
       rect:
@@ -5016,12 +3626,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 986aa14760f286145a04c3ae555fa722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_232
       rect:
@@ -5036,12 +3640,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 248a7c6f6152764448d4d0c0375041f0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_233
       rect:
@@ -5056,12 +3654,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 25a218394ce78fa498bf8948bb52f4c2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_234
       rect:
@@ -5076,12 +3668,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 17e2d48603b822f45a7491342d77326f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_235
       rect:
@@ -5096,12 +3682,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b4c2fb90bb1eee744a3cbcbfa5dcabd9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_236
       rect:
@@ -5116,12 +3696,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d32d6e8a00f44c441b4c3caa127e6778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_237
       rect:
@@ -5136,12 +3710,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: faef7d608930d5d46b1db4e28d3f1be0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_238
       rect:
@@ -5156,12 +3724,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1960603a25e5ce6478ad3c1c30775532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_239
       rect:
@@ -5176,12 +3738,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4febb8073db1b5b429eb6428e8a5afde
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_240
       rect:
@@ -5196,12 +3752,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 01598faae5300fb4e8ea7d60ab3f1836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_241
       rect:
@@ -5216,12 +3766,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 319c76b2b366f3c4384287fe6f5b1f6c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_242
       rect:
@@ -5236,12 +3780,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f249ed3af639fd6448e0318c3a7f9292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_243
       rect:
@@ -5256,12 +3794,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: d657b26e5df95d34eb31045bd99632ae
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_244
       rect:
@@ -5276,12 +3808,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: c1aa7f1306e031d4ebeeaab5b967baa0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_245
       rect:
@@ -5296,12 +3822,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 8f3d2fcf56b73f14e9ef6bfc72ae08e6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_246
       rect:
@@ -5316,12 +3836,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 965ba07583c7c684ab25c7d2ec3bb953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_247
       rect:
@@ -5336,12 +3850,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 1a10be7417bc9e84a92d08bc96e76f15
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_248
       rect:
@@ -5356,12 +3864,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 600cb90eb586ff34db2e282603155c51
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_249
       rect:
@@ -5376,12 +3878,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 597f03b8ec8b10245ab5ebdeddcdae6f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_250
       rect:
@@ -5396,12 +3892,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0d15c1eb06da43c4cbef8da56c6242cf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_251
       rect:
@@ -5416,12 +3906,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 944f53b1b873b574788012412e43026e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_252
       rect:
@@ -5436,12 +3920,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 956c70fcd2a193c4ab0f867f198372f4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_253
       rect:
@@ -5456,12 +3934,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: e5959bd83bdc7f64b896686b6d890f8c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_254
       rect:
@@ -5476,12 +3948,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 68a8c4f38b112fb4cbac2f1c830f0d7f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_255
       rect:
@@ -5496,12 +3962,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b86021d2b2a8f2147bea6fb45286f764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_256
       rect:
@@ -5516,12 +3976,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ac10b68bfba0f464cbd8ae7accaf515e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_257
       rect:
@@ -5536,12 +3990,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f9e08e7a10396f342aaac900808ca79b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_258
       rect:
@@ -5556,12 +4004,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f56630498d9eecf4db1bcf436a3425dd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_259
       rect:
@@ -5576,12 +4018,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: fcc809ad2c3189544897151cab4b529f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_260
       rect:
@@ -5596,12 +4032,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 647ae97f7843b0b4eb88290eb14a3ff8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_261
       rect:
@@ -5616,12 +4046,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6b2a3fc4f47c7da40b4646f40a819f0f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_262
       rect:
@@ -5636,12 +4060,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: e3c663d07571d8b4eace43a29cb97f06
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_263
       rect:
@@ -5656,12 +4074,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4fb0849bbd2156d43b5b5a0e80bfe2d3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_264
       rect:
@@ -5676,12 +4088,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 8a4f7c8da82416c419c9e9dbab57d604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_265
       rect:
@@ -5696,12 +4102,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 83aa3a0de9e96f745a728f5581037699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_266
       rect:
@@ -5716,12 +4116,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4d421fa1e5ff0684fab7e922c6810392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_267
       rect:
@@ -5736,12 +4130,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 00ca22f7bcc776746bd3bd63f106676e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_268
       rect:
@@ -5756,12 +4144,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4863f61ee0fa824418ef44f40d62356d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_269
       rect:
@@ -5776,12 +4158,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: aa20349e018178b49a7be35d22b4a917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_270
       rect:
@@ -5796,12 +4172,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ad8e721649305d541813454a0c9ae621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_271
       rect:
@@ -5816,12 +4186,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7395698c809749c42bff4f84f6816c27
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_272
       rect:
@@ -5836,12 +4200,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5ae343b819fdc994dbd1659e49ba299d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_273
       rect:
@@ -5856,12 +4214,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 5ca2a17dd0161fa468577082e26fc9b4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_274
       rect:
@@ -5876,12 +4228,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 64f1f0787484a5a40bc81e4045a6e327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_275
       rect:
@@ -5896,12 +4242,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 167010a1f1e2a34438b0c8816a7c5290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_276
       rect:
@@ -5916,12 +4256,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: ec239e2905ccc9e409dabf98e7e8e148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_277
       rect:
@@ -5936,12 +4270,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: bde14a31bf4a7734fac966b2c344c42a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_278
       rect:
@@ -5956,12 +4284,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 6c1d63e8ea2153646bd641d06bc22607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_279
       rect:
@@ -5976,12 +4298,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 46338bb09f5e1f042b1f86e529d4b434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_280
       rect:
@@ -5996,12 +4312,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4f4c117eb15388b478f4747824f6694b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_281
       rect:
@@ -6016,12 +4326,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0f01ca610bd3c4d4eb9612cc1c56aac7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_282
       rect:
@@ -6036,12 +4340,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 2739a2389e9f5e04f90747b6fa590270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_283
       rect:
@@ -6056,12 +4354,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3291c6febaa0e294ebe8920b7b294cc2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_284
       rect:
@@ -6076,12 +4368,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 2beeff43bc7cc5149972ad5b06a4b2d2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_285
       rect:
@@ -6096,12 +4382,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 88bc2021a2bc86548abdea14932be9d0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_286
       rect:
@@ -6116,12 +4396,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: eda6d6bf2807b084389e1c68ba9e08e4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_287
       rect:
@@ -6136,12 +4410,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a56192404899c3544892f4b0b5526b13
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_288
       rect:
@@ -6156,12 +4424,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 7dfa7718a24583b4494042c1b915cd0d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_289
       rect:
@@ -6176,12 +4438,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 418792ce8bede1747816ca2dc26a8d5c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_290
       rect:
@@ -6196,12 +4452,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b954f1d85b882984bbe497b5e9bcf39e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_291
       rect:
@@ -6216,12 +4466,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3eb91075b4253a94dab0b138cd75036f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_292
       rect:
@@ -6236,12 +4480,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b3fd3cafd09bfb04ba028a5bb3f7bc18
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_293
       rect:
@@ -6256,12 +4494,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 957d3e6bc4d4d854b93c540f1738e557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_294
       rect:
@@ -6276,12 +4508,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: f52c4fb3b02c25f49b074cd42631f49c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_295
       rect:
@@ -6296,12 +4522,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 3ffed29ec64fd334a819bff2c8dca358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_296
       rect:
@@ -6316,12 +4536,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: a4d3c4894071dae4eb40896731437c99
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_297
       rect:
@@ -6336,12 +4550,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 4334b9ceed087894e8be13693e6f29da
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: towerDefense_tilesheet_298
       rect:
@@ -6356,23 +4564,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: b04bd93987cb7ae41b11aba8acacf208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
-    bones: []
-    spriteID: 
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
   spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

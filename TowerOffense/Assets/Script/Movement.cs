@@ -9,11 +9,9 @@ public class Movement : MonoBehaviour {
 
     int WayPointcount = 0;
     public float MoveSpeed = 2.0f;
-    public float OriginalMoveSpeed;
-    public bool isSlowed = false;
 
 	// Use this for initialization
-	void Awake () {
+	void Start () {
         int a = Random.Range(0 , WayPoint.points_count);
 
         WayPoint_transform = new Transform[WayPoint.count[a]];
@@ -21,15 +19,14 @@ public class Movement : MonoBehaviour {
         {
             WayPoint_transform[i] = WayPoint.points[a,i];
         }
-        OriginalMoveSpeed = MoveSpeed;
     }
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
         //다음 웨이포인트 방향으로 MoveSpeed만큼 움직임
         Vector3 vec = WayPoint_transform[WayPointcount].position - transform.position;
 
-        transform.Translate(vec.normalized * (isSlowed ? MoveSpeed * 0.5f : MoveSpeed) * Time.deltaTime, Space.World);
+        transform.Translate(vec.normalized * MoveSpeed * Time.deltaTime, Space.World);
 
         Quaternion rotation = Quaternion.LookRotation
             (WayPoint_transform[WayPointcount].position - transform.position,transform.TransformDirection(Vector3.back));
@@ -56,20 +53,5 @@ public class Movement : MonoBehaviour {
         }
 
         WayPointcount++;
-    }
-
-
-    protected IEnumerator SlowDown()
-    {
-        float counter = 0;
-
-        while (counter < 0.5f)
-        {
-            isSlowed = true;
-            counter += Time.deltaTime;
-            yield return null;
-        }
-
-        isSlowed = false;
     }
 }
