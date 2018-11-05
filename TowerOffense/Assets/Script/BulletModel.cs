@@ -35,7 +35,7 @@ public abstract class BulletModel : MonoBehaviour {
         {
             int a = Random.Range(0, 6);
 
-            int T = new UpgradeList(new FileLoader().Load()).IncreaseEffect;
+            int T = new UpgradeList(FileLoader.Load()).IncreaseEffect;
 
             if (a <= T)
             {
