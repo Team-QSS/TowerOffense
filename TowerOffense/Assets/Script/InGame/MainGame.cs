@@ -141,7 +141,7 @@ public class MainGame : MonoBehaviour {
         IsGameEnd = false;
         Text_Money = GameObject.Find("Money").GetComponent<Text>();
         //InvokeRepeating("MakeMoney", 0f, 0.5f);
-        upgradeList = new UpgradeList(new FileLoader().Load());
+        upgradeList = new UpgradeList(FileLoader.Load());
         units = new List<GameObject>();
         towers = new List<GameObject>();
     }

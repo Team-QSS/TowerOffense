@@ -82,7 +82,7 @@ public class Shop : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        /*SaveData saveData = new FileLoader().Load();
+        /*SaveData saveData = FileLoader.Load();
 
         upgrade.Speed = saveData.Speed;
         upgrade.HP = saveData.HP;
@@ -94,7 +94,7 @@ public class Shop : MonoBehaviour {
         upgrade.GetSpeed = saveData.GetSpeed;
         upgrade.Max = saveData.MaxMoney;*/
 
-        upgrade = new UpgradeList(new FileLoader().Load());
+        upgrade = new UpgradeList(FileLoader.Load());
         //new SaveData().Save();
         UC = GameObject.Find("UpgradeCount").GetComponent<Text>();
 	}

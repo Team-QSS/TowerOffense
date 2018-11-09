@@ -16,7 +16,7 @@ public class PlayerScript : MonoBehaviour {
     void Start () {
         HPvar.GetComponent<FollowPlayer>().Player = this.gameObject;
         HPvar = Instantiate(HPvar);
-        upgradeList = new UpgradeList(new FileLoader().Load());
+        upgradeList = new UpgradeList(FileLoader.Load());
         movement = GetComponent<Movement>();
         MoveSpeed = movement.MoveSpeed + 0.2f * upgradeList.Speed;
         movement.MoveSpeed = MoveSpeed;
@@ -62,5 +62,10 @@ public class PlayerScript : MonoBehaviour {
     private void OnDestroy()
     {
         if (wallScript != null) wallScript.DestroyUnit(gameObject);
+    }
+
+    public void DealDmg(float dmg)
+    {
+        HP -= dmg;
     }
 }

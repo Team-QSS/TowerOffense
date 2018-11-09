@@ -29,7 +29,7 @@ public class CheckVictory : MonoBehaviour {
 
     void Defeat()
     {
-        vicOrDef.text = "Defeat";
+        vicOrDef.text = "DEFEAT";
         vicOrDef.gameObject.SetActive(true);
         Time.timeScale = 0;
        
@@ -38,10 +38,10 @@ public class CheckVictory : MonoBehaviour {
 
     void Victory()
     {
-        vicOrDef.text = "Victory";
+        vicOrDef.text = "VICTORY";
         vicOrDef.gameObject.SetActive(true);
         Time.timeScale = 0;
-        SaveData sv = new FileLoader().Load();
+        SaveData sv = FileLoader.Load();
         sv.UpgradeCount += 3;
         sv.Save();
         Camera.main.GetComponent<MainGame>().IsGameEnd = true;

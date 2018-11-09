@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
 public class FileLoader{
-    public void Save(SaveData saveData) {
+    public static void Save(SaveData saveData) {
         string path = Application.persistentDataPath + "/save.dat";
         FileStream file;
 
@@ -20,7 +20,7 @@ public class FileLoader{
         file.Close();
     }
 
-    public SaveData Load() {
+    public static SaveData Load() {
         string path = Application.persistentDataPath + "/save.dat";
         FileStream file;
 
@@ -84,6 +84,6 @@ public class SaveData
 
     public void Save()
     {
-        new FileLoader().Save(this);
+        FileLoader.Save(this);
     }
 }

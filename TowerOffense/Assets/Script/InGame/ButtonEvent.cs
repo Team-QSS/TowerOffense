@@ -17,7 +17,7 @@ public class ButtonEvent : MonoBehaviour {
     // Use this for initialization
     void Start () {
         mainGame = Camera.main.GetComponent<MainGame>();
-        upgradeList = new UpgradeList(new FileLoader().Load());
+        upgradeList = new UpgradeList(FileLoader.Load());
 	}
 	
 	// Update is called once per frame
@@ -76,7 +76,7 @@ public class ButtonEvent : MonoBehaviour {
         }
         mainGame.Money -= 500;
         UseSkill_Barrier = true;
-        object[] param = new object[2] {image, 20.0f};
+        object[] param = new object[2] {image, 15.0f};
         StartCoroutine(MainGame.CoolDown(param));
         StartCoroutine(CoolDown((x) => { UseSkill_Barrier = x; }));
     }
@@ -90,7 +90,7 @@ public class ButtonEvent : MonoBehaviour {
 
         mainGame.Money -= 500;
         UseSkill_SpeedUp = true;
-        object[] param = new object[2] { image, 20.0f };
+        object[] param = new object[2] { image, 15.0f };
         StartCoroutine(SpeedUp());
         StartCoroutine(MainGame.CoolDown(param));
         StartCoroutine(CoolDown((x) => { UseSkill_SpeedUp = x; }));

@@ -62,6 +62,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Bullet.cs" />
+    <Compile Include="Assets\Script\BulletModel.cs" />
+    <Compile Include="Assets\Script\EmpBullet.cs" />
     <Compile Include="Assets\Script\FollowPlayer.cs" />
     <Compile Include="Assets\Script\InGame\ButtonEvent.cs" />
     <Compile Include="Assets\Script\InGame\CameraMove.cs" />
@@ -78,10 +80,12 @@
     <Compile Include="Assets\Script\SaveData\SaveData.cs" />
     <Compile Include="Assets\Script\SaveData\Shop.cs" />
     <Compile Include="Assets\Script\SaveData\UpgradeList.cs" />
+    <Compile Include="Assets\Script\StageSelectE.cs" />
     <Compile Include="Assets\Script\TowerAI.cs" />
     <Compile Include="Assets\Script\UItoL.cs" />
     <Compile Include="Assets\Script\WallScript.cs" />
     <Compile Include="Assets\Script\WayPoint.cs" />
+    <Compile Include="Assets\Script\YieldInstructions.cs" />
     <None Include="Assets\Resources\Map\Stage3\Stage3_Wall.txt" />
     <None Include="Assets\Resources\Map\Stage2\Stage2_Enemy.txt" />
     <None Include="Assets\Resources\Map\Stage5\Stage5.txt" />
@@ -90,24 +94,27 @@
     <None Include="Assets\Resources\Map\Stage1\Stage1_Wall.txt" />
     <None Include="Assets\Resources\Map\Stage1\Stage1_Enemy.txt" />
     <None Include="Assets\Resources\Map\Stage3\Stage3_Enemy.txt" />
+    <None Include="Assets\Resources\Map\Stage5\Stage5_Enemy.txt" />
     <None Include="Assets\Resources\Map\Stage4\Stage4.txt" />
+    <None Include="Assets\Resources\Map\Stage4\Stage4_Wall.txt" />
     <None Include="Assets\Resources\Map\Stage1\Stage1.txt" />
     <None Include="Assets\Resources\Map\Stage3\Stage3.txt" />
+    <None Include="Assets\Resources\Map\Stage4\Stage4_Enemy.txt" />
     <None Include="Assets\Resources\Map\Stage2\Stage2.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Android.Editor">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/ScriptAssemblies/Unity.Analytics.Android.Editor.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/ScriptAssemblies/Unity.Analytics.Android.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0b7/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -305,16 +312,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0b7/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/PackageCache/com.unity.analytics@3.0.9/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/PackageCache/com.unity.analytics@3.0.9/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/PackageCache/com.unity.analytics@3.0.9/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/PackageCache/com.unity.analytics@3.0.9/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/PackageCache/com.unity.analytics@3.0.9/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/PackageCache/com.unity.analytics@3.0.9/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics">
-      <HintPath>C:/Users/HulkSTD/Documents/UnityProject/TowerOffense/Library/PackageCache/com.unity.analytics@3.0.9/Android/Unity.Analytics.dll</HintPath>
+      <HintPath>C:/Users/HulkSTD/Documents/TowerOffense/TowerOffense/TowerOffense/Library/PackageCache/com.unity.analytics@3.0.9/Android/Unity.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0b7/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
