@@ -13,13 +13,14 @@ public class CheckVictory : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        HP=GameObject.Find("HP").GetComponent<Slider>();
+        //HP=GameObject.Find("HP").GetComponent<Slider>();
+        HP.maxValue = goalUnit;
         playTime = GetComponent<PlayTime>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        HP.value=10-goalUnitCount;
+        HP.value = goalUnit - goalUnitCount;
         if (playTime.playTime <= 0f)
         {
             Defeat();
