@@ -9,14 +9,17 @@ public class CheckVictory : MonoBehaviour {
     public Text vicOrDef;
     public int goalUnitCount = 0;
     public int goalUnit;
+    public Slider HP;
 
 	// Use this for initialization
 	void Start () {
+        HP=GameObject.Find("HP").GetComponent<Slider>();
         playTime = GetComponent<PlayTime>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        HP.value=10-goalUnitCount;
         if (playTime.playTime <= 0f)
         {
             Defeat();
