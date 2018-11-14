@@ -1,12 +1,16 @@
 Win64
 PlayerPath?
-C:/Users/HulkSTD/Desktop/TowerOffense/TowerOffense.exe
+C:/Users/HulkSTD/Desktop/TowerOffense_Last/TowerOffense.exe
 SceneListBegin?
-Assets/Scene/Stage2.unity
-Assets/Scene/Stage1.unity
-Assets/Scene/Shop.unity
-Assets/Scene/StageSelect.unity
 Assets/Scene/MainScene.unity
+Assets/Scene/StageSelect.unity
+Assets/Scene/Stage1.unity
+Assets/Scene/Stage2.unity
+Assets/Scene/Stage3.unity
+Assets/Scene/Stage4.unity
+Assets/Scene/Stage5.unity
+Assets/Scene/Stage6.unity
+Assets/Scene/Shop.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -94,6 +98,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SpawnWall
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Shop
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.YieldInstructions
 b41b4849e0877a646ef28b8911442272 Assembly-CSharp.dll:.WallScript
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -150,6 +155,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 ad5ff94c5e9ee883841c9278fc02d605 Assembly-CSharp.dll:.CameraMove
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.StageSelectE
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 cf96e5f7b3d069bab453925bd41be04e UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
@@ -169,8 +175,9 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 432e50f772e3f3d0916a2596df148d10 Assembly-CSharp.dll:.Bullet
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-ac9d23e0944d304e2f27729879574063 Assembly-CSharp.dll:.CheckVictory
+56e73f86e7fd5beb26c6fd05c5f4d2de Assembly-CSharp.dll:.CheckVictory
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
+31f310be4484928e3bcac1c3b6937a47 Assembly-CSharp.dll:.EmpBullet
 20c3a7ded947a5350711e03483cc6fff Assembly-CSharp.dll:.MainGame
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SpawnUnit
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
